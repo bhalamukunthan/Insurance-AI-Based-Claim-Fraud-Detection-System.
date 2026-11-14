@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     VERSION: str = "2.6.0"
     API_V1_STR: str = "/api"
     HOST: str = "0.0.0.0"
-    PORT: int = 8000
+    PORT: int = 8008
     CORS_ORIGINS: list[str] = [
         "http://localhost:5173",
         "http://127.0.0.1:5173",

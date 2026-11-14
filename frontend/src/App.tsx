@@ -107,7 +107,7 @@ export function App() {
     let fallbackInterval: any = null;
 
     try {
-      ws = new WebSocket('ws://localhost:8000/ws/transactions');
+      ws = new WebSocket('ws://localhost:8008/ws/transactions');
       ws.onopen = () => {
         setWsConnected(true);
       };

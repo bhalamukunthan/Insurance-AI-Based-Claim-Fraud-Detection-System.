@@ -11,7 +11,7 @@ import type {
   AlertStatus
 } from '../types';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'http://localhost:8008/api';
 
 // Fallback seed data in case API is disconnected or starting
 export const fallbackOverview: ExecutiveOverview = {
